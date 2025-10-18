@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GharAI - GharAI Smart Home Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white font-sans text-center p-6">
+
+    <h1 class="text-4xl font-bold text-cyan-400 mb-2">Welcome to GharAI</h1>
+    <h2 class="text-xl text-cyan-300 mb-6">Hi, I'm <b>ZYAA</b>your smart home assistant 🤖</h2>
+
+    <div class="bg-gray-800 rounded-2xl p-6 w-full max-w-sm mx-auto shadow-lg shadow-cyan-500">
+        <p class="mb-2"><strong>🌡 Temperature:</strong> {{ data.temperature }} °C</p>
+        <p class="mb-2"><strong>🌀 Fan Status:</strong> {{ data.fan_status }}</p>
+        <p class="mb-2"><strong>🧠 AI Suggestion:</strong> {{ data.suggestion }}</p>
+
+        <!-- 🔌 ML Predictions -->
+        <hr class="my-4 border-gray-600">
+        <p class="mb-2"><strong>🔌 Predicted Current:</strong> {{ data.predicted_current }} A</p>
+        <p class="mb-2"><strong>📊 Usage Prediction:</strong> 
+            {% if data.predicted_usage == 1 %}
+                <span class="text-yellow-300 font-bold">High</span>
+            {% elif data.predicted_usage == 0 %}
+                <span class="text-green-300 font-bold">Low</span>
+            {% else %}
+                <span class="text-gray-400">N/A</span>
+            {% endif %}
+        </p>
+    </div>
+
+    <form action="/control" method="POST" class="mt-6">
+        <button type="submit" name="action" value="turn_on"
+            class="bg-cyan-400 hover:bg-cyan-500 text-black font-bold py-2 px-6 rounded-xl m-2 transition duration-200">
+            Turn ON Fan
+        </button>
+        <button type="submit" name="action" value="turn_off"
+            class="bg-cyan-400 hover:bg-cyan-500 text-black font-bold py-2 px-6 rounded-xl m-2 transition duration-200">
+            Turn OFF Fan
+        </button>
+    </form>
+
+    <footer class="text-sm text-gray-400 mt-10">
+        &copy; 2025 GharAI • Powered by ZYAA
+    </footer>
+
+</body>
+</html>
