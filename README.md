@@ -48,7 +48,7 @@ It enables users to control appliances through natural voice commands, predicts 
 | **Sensors (optional)** | ACS712 (Current), Tempreature and Humidity Sensor (DHT11), Relay Module |
 | **ML Models** | Appliance_Usage_Prediction_Model.pkl, Current_Prediction_Model.pkl |
 | **Software / Libraries** | Python, scikit-learn, pandas, numpy, pyttsx3, speechrecognition |
-| **Voice Assistant** | **ZYAA** An integrated voice AI for control and feedback |
+| **Voice Assistant** | **ZYAA** — An integrated voice AI for control and feedback |
 | **Frontend** | HTML, CSS, JS (`Manash.html`) |
 
 ---
@@ -91,6 +91,7 @@ python Manash.py
 ## 🟨3️⃣ Activate Voice Assistant (ZYAA)
 python ZYAA.py
 
+
 Once ZYAA is active, say:
 
 “Turn on the light”
@@ -102,6 +103,7 @@ Once ZYAA is active, say:
 “Predict appliance consumption”
 
 ## 🟨System Architecture
+
 [User Voice] 
    ↓
 [ZYAA Voice Assistant]
