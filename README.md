@@ -48,7 +48,7 @@ It enables users to control appliances through natural voice commands, predicts 
 | **Sensors (optional)** | ACS712 (Current), Tempreature and Humidity Sensor (DHT11), Relay Module |
 | **ML Models** | Appliance_Usage_Prediction_Model.pkl, Current_Prediction_Model.pkl |
 | **Software / Libraries** | Python, scikit-learn, pandas, numpy, pyttsx3, speechrecognition |
-| **Voice Assistant** | **ZYAA** – Integrated voice AI for control and feedback |
+| **Voice Assistant** | **ZYAA** An integrated voice AI for control and feedback |
 | **Frontend** | HTML, CSS, JS (`Manash.html`) |
 
 ---
@@ -82,14 +82,14 @@ GharAI/
 
 ## 🚀 How to Run the Project
 
-### 1️⃣ Install Dependencies
+### 🟦1️⃣ Install Dependencies***
 ```bash
 pip install pandas numpy scikit-learn pyttsx3 speechrecognition flask
 
-### 2️⃣ Run the Main Script
+###🟩 2️⃣ Run the Main Script***
 python Manash.py
 
-###3️⃣ Activate Voice Assistant (ZYAA)
+###🟨3️⃣ Activate Voice Assistant (ZYAA)***
 python ZYAA.py
 
 Once ZYAA is active, say:
@@ -102,7 +102,7 @@ Once ZYAA is active, say:
 
 “Predict appliance consumption”
 
-##🖥️ System Architecture
+###🟨System Architecture***
 [User Voice] 
    ↓
 [ZYAA Voice Assistant]
@@ -113,7 +113,7 @@ Once ZYAA is active, say:
    ↓
 [Appliance Control + Web Dashboard]
 
-###🧑‍💻 Project Members
+###🟩 Project Members***
 
 Manash Jyoti Mahanta
 
@@ -124,7 +124,7 @@ Dhitiman Das
 Jyotishman Kalita
 
 
-###💡 Future Enhancements
+###🟩 Future Enhancements***
 
 🔌 IoT control using ESP8266 and cloud connectivity
 
