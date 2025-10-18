@@ -82,13 +82,13 @@ GharAI/
 
 ## 🚀 How to Run the Project
 
-## 🟦1️⃣ Install Dependencies***
+## 🟦1️⃣ Install Dependencies
 pip install pandas numpy scikit-learn pyttsx3 speechrecognition flask
 
-## 🟩2️⃣ Run the Main Script***
+## 🟩2️⃣ Run the Main Script
 python Manash.py
 
-## 🟨3️⃣ Activate Voice Assistant (ZYAA)***
+## 🟨3️⃣ Activate Voice Assistant (ZYAA)
 python ZYAA.py
 
 Once ZYAA is active, say:
