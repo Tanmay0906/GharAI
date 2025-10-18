@@ -101,7 +101,7 @@ Once ZYAA is active, say:
 
 “Predict appliance consumption”
 
-###🟨System Architecture***
+## 🟨System Architecture
 [User Voice] 
    ↓
 [ZYAA Voice Assistant]
@@ -112,7 +112,7 @@ Once ZYAA is active, say:
    ↓
 [Appliance Control + Web Dashboard]
 
-## 🟩 Project Members***
+## 🟩 Project Members
 
 Manash Jyoti Mahanta
 
@@ -121,16 +121,3 @@ Ashraful Hoque Barbhuiya
 Dhitiman Das
 
 Jyotishman Kalita
-
-
-## 🟩 Future Enhancements***
-
-🔌 IoT control using ESP8266 and cloud connectivity
-
-📱 Mobile app integration for remote monitoring
-
-🌐 Cloud-based energy usage analytics
-
-🔒 Smart intrusion/security detection through ZYAA’s adaptive AI
-
-🧠 Integration with GRIHAI (Energy optimization & analytics module)
