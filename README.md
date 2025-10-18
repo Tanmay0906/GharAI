@@ -9,7 +9,7 @@ It enables users to control appliances through natural voice commands, predicts 
 ## ⚙️ Key Features
 
 - 🎙️ **Voice Assistant — ZYAA**  
-  GharAI’s personal AI assistant **ZYAA** allows hands-free control of home appliances using natural voice commands.  
+  GharAI’s personal AI assistant **ZYAA** allows hands free control of home appliances using natural voice commands.  
   Example commands:  
   - “Hey ZYAA, turn on the light.”  
   - “ZYAA, switch off the fan.”  
@@ -82,14 +82,13 @@ GharAI/
 
 ## 🚀 How to Run the Project
 
-### 🟦1️⃣ Install Dependencies***
-```bash
+## 🟦1️⃣ Install Dependencies***
 pip install pandas numpy scikit-learn pyttsx3 speechrecognition flask
 
-###🟩 2️⃣ Run the Main Script***
+## 🟩2️⃣ Run the Main Script***
 python Manash.py
 
-###🟨3️⃣ Activate Voice Assistant (ZYAA)***
+## 🟨3️⃣ Activate Voice Assistant (ZYAA)***
 python ZYAA.py
 
 Once ZYAA is active, say:
@@ -113,7 +112,7 @@ Once ZYAA is active, say:
    ↓
 [Appliance Control + Web Dashboard]
 
-###🟩 Project Members***
+## 🟩 Project Members***
 
 Manash Jyoti Mahanta
 
@@ -124,7 +123,7 @@ Dhitiman Das
 Jyotishman Kalita
 
 
-###🟩 Future Enhancements***
+## 🟩 Future Enhancements***
 
 🔌 IoT control using ESP8266 and cloud connectivity
 
